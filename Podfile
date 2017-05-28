@@ -7,6 +7,8 @@ target 'Onigokko_game' do
 
   # Pods for Onigokko_game
   pod 'GoogleMaps'
+  pod 'SwaggerClient', :path => ‘./swift3-client’
+
 
   target 'Onigokko_gameTests' do
     inherit! :search_paths
