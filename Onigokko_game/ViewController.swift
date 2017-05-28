@@ -8,27 +8,32 @@
 
 import UIKit
 import GoogleMaps
+import CoreLocation
 
-class ViewController: UIViewController {
-    
+class ViewController: UIViewController ,CLLocationManagerDelegate {
+
     @IBOutlet weak var googleMap: GMSMapView!
     
-    //緯度経度 -> 金沢駅
-    let latitude: CLLocationDegrees = 36.5780574
-    let longitude: CLLocationDegrees = 136.6486596
-
+    var myLocationManager: CLLocationManager!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //現在地を取得
+        locationGet()
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        self.view.sendSubview(toBack: googleMap)
+    }
+    
+    func updateCameraPosition(latitude: CLLocationDegrees, longitude: CLLocationDegrees){
         // ズームレベル.
         let zoom: Float = 15
-        
         // カメラを生成.
         let camera: GMSCameraPosition = GMSCameraPosition.camera(withLatitude: latitude,longitude: longitude, zoom: zoom)
-        
-        // MapViewを生成.
-//        googleMap = GMSMapView(frame: CGRectMake(0, 0, self.view.bounds.width, self.view.bounds.height))
-        
         // MapViewにカメラを追加.
         googleMap.camera = camera
         
@@ -37,16 +42,40 @@ class ViewController: UIViewController {
         marker.position = CLLocationCoordinate2DMake(latitude, longitude)
         marker.map = googleMap
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func locationGet(){
+        myLocationManager = CLLocationManager()
+        myLocationManager.delegate = self
+        
+        switch CLLocationManager.authorizationStatus() {
+        case .restricted:
+            print("no user")
+        case .denied:
+            print("no user")
+        case .notDetermined:
+            myLocationManager.requestWhenInUseAuthorization()
+        default:
+            print("peremited")
+        }
+        
+        if !CLLocationManager.locationServicesEnabled(){
+            return
+        }
+        myLocationManager.desiredAccuracy = kCLLocationAccuracyBest
+        myLocationManager.distanceFilter = kCLDistanceFilterNone
+        myLocationManager.requestLocation()
     }
     
-    //CGRectMakeをwrappする関数
-    func CGRectMake(_ x: CGFloat, _ y: CGFloat, _ width: CGFloat, _ height: CGFloat) -> CGRect {
-        return CGRect(x: x, y: y, width: width, height: height)
+    //ここでlocation更新されたら取得
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        guard let location = manager.location else { return }
+        let latitude = location.coordinate.latitude
+        let longitude = location.coordinate.longitude
+        updateCameraPosition(latitude: latitude, longitude: longitude)
     }
-
+    
+    func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
+        print(error)
+    }
 }
 

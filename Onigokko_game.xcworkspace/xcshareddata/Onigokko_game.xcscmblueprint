@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F1912782D14969DA70E473A81B8720ECCA705C60+++32091F3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F1912782D14969DA70E473A81B8720ECCA705C60+++C18F021" : 9223372036854775807,
+    "F1912782D14969DA70E473A81B8720ECCA705C60+++32091F3" : 9223372036854775807,
+    "F1912782D14969DA70E473A81B8720ECCA705C60+++6962120" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FC9EADBD-3A6C-4841-8351-E2154E82CCCE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F1912782D14969DA70E473A81B8720ECCA705C60+++C18F021" : "",
+    "F1912782D14969DA70E473A81B8720ECCA705C60+++32091F3" : "swift\/",
+    "F1912782D14969DA70E473A81B8720ECCA705C60+++6962120" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Onigokko_game",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Onigokko_game.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/antexe\/swift",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F1912782D14969DA70E473A81B8720ECCA705C60+++32091F3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/antexe\/swift",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F1912782D14969DA70E473A81B8720ECCA705C60+++6962120"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/antexe\/swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F1912782D14969DA70E473A81B8720ECCA705C60+++C18F021"
+    }
+  ]
+}
