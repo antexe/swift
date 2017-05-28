@@ -13,12 +13,18 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var googleMap: GMSMapView!
     
+    @IBOutlet weak var currentPin: UIImageView!
+    
+    @IBOutlet weak var oniPin: UIImageView!
+    
     //緯度経度 -> 金沢駅
     let latitude: CLLocationDegrees = 36.5780574
     let longitude: CLLocationDegrees = 136.6486596
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        //鬼Pin非表示
+        oniPin.isHidden = true
         
         // ズームレベル.
         let zoom: Float = 15
@@ -36,6 +42,12 @@ class ViewController: UIViewController {
         let marker: GMSMarker = GMSMarker()
         marker.position = CLLocationCoordinate2DMake(latitude, longitude)
         marker.map = googleMap
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        self.view.bringSubview(toFront: currentPin)
+        
     }
 
     override func didReceiveMemoryWarning() {
