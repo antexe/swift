@@ -14,6 +14,9 @@
 		3101EFF31EDA792E00826869 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3101EFF11EDA792E00826869 /* LaunchScreen.storyboard */; };
 		3101EFFE1EDA792E00826869 /* Onigokko_gameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3101EFFD1EDA792E00826869 /* Onigokko_gameTests.swift */; };
 		3101F0091EDA792E00826869 /* Onigokko_gameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3101F0081EDA792E00826869 /* Onigokko_gameUITests.swift */; };
+		63A7A090B87C4497DF11F146 /* Pods_Onigokko_game.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E587DDF48C1CAE36C4FB2E /* Pods_Onigokko_game.framework */; };
+		B3DFDC802DEDF02CC6011A60 /* Pods_Onigokko_gameUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0B0C8C633A106DBBAC159DF /* Pods_Onigokko_gameUITests.framework */; };
+		E6E4D09726DEA75CFA66437E /* Pods_Onigokko_gameTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C4C026470C48A49EE81C7C7 /* Pods_Onigokko_gameTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00AA73CD75A9FE2A2028535C /* Pods-Onigokko_gameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Onigokko_gameTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Onigokko_gameTests/Pods-Onigokko_gameTests.debug.xcconfig"; sourceTree = "<group>"; };
+		204FA25F8F1F365B5AFE8188 /* Pods-Onigokko_game.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Onigokko_game.release.xcconfig"; path = "Pods/Target Support Files/Pods-Onigokko_game/Pods-Onigokko_game.release.xcconfig"; sourceTree = "<group>"; };
 		3101EFE51EDA792E00826869 /* Onigokko_game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Onigokko_game.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3101EFE81EDA792E00826869 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3101EFEA1EDA792E00826869 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,13 @@
 		3101F0041EDA792E00826869 /* Onigokko_gameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Onigokko_gameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3101F0081EDA792E00826869 /* Onigokko_gameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onigokko_gameUITests.swift; sourceTree = "<group>"; };
 		3101F00A1EDA792E00826869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C4C026470C48A49EE81C7C7 /* Pods_Onigokko_gameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Onigokko_gameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		729E9826BB39259F56657429 /* Pods-Onigokko_game.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Onigokko_game.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Onigokko_game/Pods-Onigokko_game.debug.xcconfig"; sourceTree = "<group>"; };
+		8FEF582A8ED0B477BE2CE3E2 /* Pods-Onigokko_gameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Onigokko_gameUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Onigokko_gameUITests/Pods-Onigokko_gameUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9CD22BC5A27CFF4D872AF451 /* Pods-Onigokko_gameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Onigokko_gameUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Onigokko_gameUITests/Pods-Onigokko_gameUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A0B0C8C633A106DBBAC159DF /* Pods_Onigokko_gameUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Onigokko_gameUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C619C85CB0742EB0D51089F7 /* Pods-Onigokko_gameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Onigokko_gameTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Onigokko_gameTests/Pods-Onigokko_gameTests.release.xcconfig"; sourceTree = "<group>"; };
+		F4E587DDF48C1CAE36C4FB2E /* Pods_Onigokko_game.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Onigokko_game.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63A7A090B87C4497DF11F146 /* Pods_Onigokko_game.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6E4D09726DEA75CFA66437E /* Pods_Onigokko_gameTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3DFDC802DEDF02CC6011A60 /* Pods_Onigokko_gameUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				3101EFFC1EDA792E00826869 /* Onigokko_gameTests */,
 				3101F0071EDA792E00826869 /* Onigokko_gameUITests */,
 				3101EFE61EDA792E00826869 /* Products */,
+				F0FAA84135A6AB2B743A9811 /* Pods */,
+				3D691BDA1D93A5816EAF8432 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = Onigokko_gameUITests;
 			sourceTree = "<group>";
 		};
+		3D691BDA1D93A5816EAF8432 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4E587DDF48C1CAE36C4FB2E /* Pods_Onigokko_game.framework */,
+				5C4C026470C48A49EE81C7C7 /* Pods_Onigokko_gameTests.framework */,
+				A0B0C8C633A106DBBAC159DF /* Pods_Onigokko_gameUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0FAA84135A6AB2B743A9811 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				729E9826BB39259F56657429 /* Pods-Onigokko_game.debug.xcconfig */,
+				204FA25F8F1F365B5AFE8188 /* Pods-Onigokko_game.release.xcconfig */,
+				00AA73CD75A9FE2A2028535C /* Pods-Onigokko_gameTests.debug.xcconfig */,
+				C619C85CB0742EB0D51089F7 /* Pods-Onigokko_gameTests.release.xcconfig */,
+				9CD22BC5A27CFF4D872AF451 /* Pods-Onigokko_gameUITests.debug.xcconfig */,
+				8FEF582A8ED0B477BE2CE3E2 /* Pods-Onigokko_gameUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3101F00D1EDA792E00826869 /* Build configuration list for PBXNativeTarget "Onigokko_game" */;
 			buildPhases = (
+				0451B903369AE2494E07DDD8 /* [CP] Check Pods Manifest.lock */,
 				3101EFE11EDA792E00826869 /* Sources */,
 				3101EFE21EDA792E00826869 /* Frameworks */,
 				3101EFE31EDA792E00826869 /* Resources */,
+				CB07C77A95769C20B4B05BE4 /* [CP] Embed Pods Frameworks */,
+				723097BC01A9718AE63A4CBA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3101F0101EDA792E00826869 /* Build configuration list for PBXNativeTarget "Onigokko_gameTests" */;
 			buildPhases = (
+				D703B505BD232DED7CFC6711 /* [CP] Check Pods Manifest.lock */,
 				3101EFF51EDA792E00826869 /* Sources */,
 				3101EFF61EDA792E00826869 /* Frameworks */,
 				3101EFF71EDA792E00826869 /* Resources */,
+				755FFD832BE79D3E3A56566A /* [CP] Embed Pods Frameworks */,
+				583854F0B85BF7196A853EEF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3101F0131EDA792E00826869 /* Build configuration list for PBXNativeTarget "Onigokko_gameUITests" */;
 			buildPhases = (
+				A31C4C454615CB27886FC4BE /* [CP] Check Pods Manifest.lock */,
 				3101F0001EDA792E00826869 /* Sources */,
 				3101F0011EDA792E00826869 /* Frameworks */,
 				3101F0021EDA792E00826869 /* Resources */,
+				CD8EC2CB272EA7ED236210E7 /* [CP] Embed Pods Frameworks */,
+				69A73DD71438839B6C48E139 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +305,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0451B903369AE2494E07DDD8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		583854F0B85BF7196A853EEF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Onigokko_gameTests/Pods-Onigokko_gameTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69A73DD71438839B6C48E139 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Onigokko_gameUITests/Pods-Onigokko_gameUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		723097BC01A9718AE63A4CBA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Onigokko_game/Pods-Onigokko_game-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		755FFD832BE79D3E3A56566A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Onigokko_gameTests/Pods-Onigokko_gameTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A31C4C454615CB27886FC4BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CB07C77A95769C20B4B05BE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Onigokko_game/Pods-Onigokko_game-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD8EC2CB272EA7ED236210E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Onigokko_gameUITests/Pods-Onigokko_gameUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D703B505BD232DED7CFC6711 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3101EFE11EDA792E00826869 /* Sources */ = {
@@ -413,6 +600,7 @@
 		};
 		3101F00E1EDA792E00826869 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 729E9826BB39259F56657429 /* Pods-Onigokko_game.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8JEHPP3L74;
@@ -426,6 +614,7 @@
 		};
 		3101F00F1EDA792E00826869 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 204FA25F8F1F365B5AFE8188 /* Pods-Onigokko_game.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8JEHPP3L74;
@@ -439,6 +628,7 @@
 		};
 		3101F0111EDA792E00826869 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00AA73CD75A9FE2A2028535C /* Pods-Onigokko_gameTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +644,7 @@
 		};
 		3101F0121EDA792E00826869 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C619C85CB0742EB0D51089F7 /* Pods-Onigokko_gameTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +660,7 @@
 		};
 		3101F0141EDA792E00826869 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CD22BC5A27CFF4D872AF451 /* Pods-Onigokko_gameUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 8JEHPP3L74;
@@ -483,6 +675,7 @@
 		};
 		3101F0151EDA792E00826869 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FEF582A8ED0B477BE2CE3E2 /* Pods-Onigokko_gameUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 8JEHPP3L74;
