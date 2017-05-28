@@ -7,18 +7,40 @@
 //
 
 import UIKit
+import GoogleMaps
 import CoreLocation
 
-class ViewController: UIViewController ,CLLocationManagerDelegate{
+class ViewController: UIViewController ,CLLocationManagerDelegate {
 
+    @IBOutlet weak var googleMap: GMSMapView!
+    
+    var myLocationManager: CLLocationManager!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        //現在地を取得
+        locationGet()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        self.view.sendSubview(toBack: googleMap)
+    }
+    
+    func updateCameraPosition(latitude: CLLocationDegrees, longitude: CLLocationDegrees){
+        // ズームレベル.
+        let zoom: Float = 15
+        // カメラを生成.
+        let camera: GMSCameraPosition = GMSCameraPosition.camera(withLatitude: latitude,longitude: longitude, zoom: zoom)
+        // MapViewにカメラを追加.
+        googleMap.camera = camera
+        
+        //マーカーの作成
+        let marker: GMSMarker = GMSMarker()
+        marker.position = CLLocationCoordinate2DMake(latitude, longitude)
+        marker.map = googleMap
     }
     
     func locationGet(){
@@ -44,14 +66,16 @@ class ViewController: UIViewController ,CLLocationManagerDelegate{
         myLocationManager.requestLocation()
     }
     
-    
     //ここでlocation更新されたら取得
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         guard let location = manager.location else { return }
-        let lat = location.coordinate.latitude
-        let lng = location.coordinate.longitude
+        let latitude = location.coordinate.latitude
+        let longitude = location.coordinate.longitude
+        updateCameraPosition(latitude: latitude, longitude: longitude)
     }
-
-
+    
+    func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
+        print(error)
+    }
 }
 

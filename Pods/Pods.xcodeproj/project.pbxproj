@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		159E44FE01CC912D9B507E8A8678472A /* Pods-Onigokko_gameUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 869C38FAFFC21CD15B7683631548375F /* Pods-Onigokko_gameUITests-dummy.m */; };
+		3275065516B3F08BD07F5068941F7462 /* Pods-Onigokko_gameTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6608AEF8A8E28437E4C7700538B8F08 /* Pods-Onigokko_gameTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AB9F34AB7AA4CFDE6C562B42FB1D256 /* Pods-Onigokko_gameUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2725939CEC78C7C1D32CBAD5465F14DD /* Pods-Onigokko_gameUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		638934DA86BF58F11E9B9DDB7952F46D /* Pods-Onigokko_gameTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 210F92E2366BE2D590933F8CA6A4C011 /* Pods-Onigokko_gameTests-dummy.m */; };
+		77332535741D91312533D8A0AD0FFA9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D643F38D456DE4338AA03D2C40764340 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E234FC72AAC3155C46BD6BE951D897DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E5FAC87D425FB9DA6E249FC78EC25A67 /* Pods-Onigokko_game-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A119312D39852370944BB1994A2BA64B /* Pods-Onigokko_game-dummy.m */; };
+		F39B5E04BDC0FC3E46F2698609507FA3 /* Pods-Onigokko_game-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 132BCA64C092E806B4923C345B6CC81E /* Pods-Onigokko_game-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01D6C210F0B6ED20A678D6AA1567364A /* Pods_Onigokko_gameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Onigokko_gameTests.framework; path = "Pods-Onigokko_gameTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03FA1B3F626424C991F369BDD7D215C3 /* Pods-Onigokko_game.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Onigokko_game.release.xcconfig"; sourceTree = "<group>"; };
+		0DCDC74FF7F9DCCA56382C3150C09D8D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		132BCA64C092E806B4923C345B6CC81E /* Pods-Onigokko_game-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Onigokko_game-umbrella.h"; sourceTree = "<group>"; };
+		1414F417C5ACCA27B50251B20ABC35C4 /* Pods-Onigokko_gameUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Onigokko_gameUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		18521A97FA8BCDD16025E8D6102AB733 /* Pods-Onigokko_gameUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Onigokko_gameUITests.modulemap"; sourceTree = "<group>"; };
+		1A353D41741E72B73B2C328A064E2A3C /* Pods-Onigokko_game-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Onigokko_game-acknowledgements.plist"; sourceTree = "<group>"; };
+		210F92E2366BE2D590933F8CA6A4C011 /* Pods-Onigokko_gameTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Onigokko_gameTests-dummy.m"; sourceTree = "<group>"; };
+		2725939CEC78C7C1D32CBAD5465F14DD /* Pods-Onigokko_gameUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Onigokko_gameUITests-umbrella.h"; sourceTree = "<group>"; };
+		2A1E1E621C8C5B73907560991BD5F988 /* Pods-Onigokko_game-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Onigokko_game-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2ECB5B7A91A05A66EAE0B7B11910D509 /* Pods-Onigokko_game-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Onigokko_game-resources.sh"; sourceTree = "<group>"; };
+		36DB83CB4279B90D59054691B89501D1 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		3E742BCCF3C06037881018EA78DB0B49 /* Pods-Onigokko_gameTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Onigokko_gameTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4581189EC381AD97C78C04A19EAF1512 /* Pods-Onigokko_gameTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Onigokko_gameTests.modulemap"; sourceTree = "<group>"; };
+		45EAF437BEF9D59E7705E956C5FC25F9 /* Pods-Onigokko_gameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Onigokko_gameTests.debug.xcconfig"; sourceTree = "<group>"; };
+		482FA521D69055D5164292B7BB715808 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A3CECE9D5FB7955B3CDC0D466370500 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		4E2E16D20E68F646FA86257AC8FD20EF /* Pods-Onigokko_gameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Onigokko_gameUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		56ABB8AE83B34C60DBD5E4EBEC2D89A1 /* Pods_Onigokko_gameUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Onigokko_gameUITests.framework; path = "Pods-Onigokko_gameUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75A04C5D920A5068273ABD558561AA64 /* Pods-Onigokko_game.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Onigokko_game.modulemap"; sourceTree = "<group>"; };
+		8524BEE241CE072A2EFA9BB8798D4AB0 /* Pods-Onigokko_gameUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Onigokko_gameUITests-resources.sh"; sourceTree = "<group>"; };
+		869C38FAFFC21CD15B7683631548375F /* Pods-Onigokko_gameUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Onigokko_gameUITests-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E56960647DDAFE5A2CAD4782EE38363 /* Pods-Onigokko_gameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Onigokko_gameTests.release.xcconfig"; sourceTree = "<group>"; };
+		A119312D39852370944BB1994A2BA64B /* Pods-Onigokko_game-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Onigokko_game-dummy.m"; sourceTree = "<group>"; };
+		A6A43C2498241A8255A13183B7B702CE /* Pods-Onigokko_gameTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Onigokko_gameTests-frameworks.sh"; sourceTree = "<group>"; };
+		A986E34750A56C50DD52EB04A92BC672 /* Pods-Onigokko_game.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Onigokko_game.debug.xcconfig"; sourceTree = "<group>"; };
+		A9D800BE1CF7ED143E27B06F9FB4FF2D /* Pods-Onigokko_game-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Onigokko_game-frameworks.sh"; sourceTree = "<group>"; };
+		BE37D23565A671A9665828F4447E01B2 /* Pods_Onigokko_game.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Onigokko_game.framework; path = "Pods-Onigokko_game.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6608AEF8A8E28437E4C7700538B8F08 /* Pods-Onigokko_gameTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Onigokko_gameTests-umbrella.h"; sourceTree = "<group>"; };
+		C86C7C4D78965E91957F784F2D39E340 /* Pods-Onigokko_gameUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Onigokko_gameUITests-frameworks.sh"; sourceTree = "<group>"; };
+		CBD5388E3AD0C9E5458014E79C54AE1D /* Pods-Onigokko_gameUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Onigokko_gameUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CED9213D7BAE7958C80D4A035EE4FEAA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D40EDFCF2C3195BEC72CA0053072A6C2 /* Pods-Onigokko_gameTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Onigokko_gameTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E004374149D836C1256FFFCB38FECB72 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		E89D60B94E9582F33B016673BD1639A5 /* Pods-Onigokko_gameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Onigokko_gameUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EDA1E30A8DE9E0E3174F9710428CAC91 /* Pods-Onigokko_gameTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Onigokko_gameTests-resources.sh"; sourceTree = "<group>"; };
+		F95DB7ACF73CF03040C57A3D42223A51 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		523D57427D0E04423E69791C6C5778C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77332535741D91312533D8A0AD0FFA9D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876533C46AE196512FBFF3ECF3C477F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E234FC72AAC3155C46BD6BE951D897DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28C2066FD38A791B1CC0218397C53B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D643F38D456DE4338AA03D2C40764340 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08D6CAB57C6B3429A8C7AE0FBE2974F7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F67F98A98DD3A56861DBB34D9737726A /* Pods-Onigokko_game */,
+				3E406211539145DDAA54D126F98FB6C7 /* Pods-Onigokko_gameTests */,
+				17634F469E23C1C802792A5F5256A7FD /* Pods-Onigokko_gameUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		12AF12665F3D9EB456AF8E766C66B7BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE37D23565A671A9665828F4447E01B2 /* Pods_Onigokko_game.framework */,
+				01D6C210F0B6ED20A678D6AA1567364A /* Pods_Onigokko_gameTests.framework */,
+				56ABB8AE83B34C60DBD5E4EBEC2D89A1 /* Pods_Onigokko_gameUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1418B056D31B27EE2CEBA552B5ADFE56 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				501562BF592517FC6A65661FF1B35C78 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		17634F469E23C1C802792A5F5256A7FD /* Pods-Onigokko_gameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0DCDC74FF7F9DCCA56382C3150C09D8D /* Info.plist */,
+				18521A97FA8BCDD16025E8D6102AB733 /* Pods-Onigokko_gameUITests.modulemap */,
+				1414F417C5ACCA27B50251B20ABC35C4 /* Pods-Onigokko_gameUITests-acknowledgements.markdown */,
+				CBD5388E3AD0C9E5458014E79C54AE1D /* Pods-Onigokko_gameUITests-acknowledgements.plist */,
+				869C38FAFFC21CD15B7683631548375F /* Pods-Onigokko_gameUITests-dummy.m */,
+				C86C7C4D78965E91957F784F2D39E340 /* Pods-Onigokko_gameUITests-frameworks.sh */,
+				8524BEE241CE072A2EFA9BB8798D4AB0 /* Pods-Onigokko_gameUITests-resources.sh */,
+				2725939CEC78C7C1D32CBAD5465F14DD /* Pods-Onigokko_gameUITests-umbrella.h */,
+				4E2E16D20E68F646FA86257AC8FD20EF /* Pods-Onigokko_gameUITests.debug.xcconfig */,
+				E89D60B94E9582F33B016673BD1639A5 /* Pods-Onigokko_gameUITests.release.xcconfig */,
+			);
+			name = "Pods-Onigokko_gameUITests";
+			path = "Target Support Files/Pods-Onigokko_gameUITests";
+			sourceTree = "<group>";
+		};
+		243FAC914C81DCF02EFAD12598762AD5 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				1418B056D31B27EE2CEBA552B5ADFE56 /* Base */,
+				6BC99F081C91F80679CFA5DDC6213D57 /* Maps */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		3E406211539145DDAA54D126F98FB6C7 /* Pods-Onigokko_gameTests */ = {
+			isa = PBXGroup;
+			children = (
+				CED9213D7BAE7958C80D4A035EE4FEAA /* Info.plist */,
+				4581189EC381AD97C78C04A19EAF1512 /* Pods-Onigokko_gameTests.modulemap */,
+				D40EDFCF2C3195BEC72CA0053072A6C2 /* Pods-Onigokko_gameTests-acknowledgements.markdown */,
+				3E742BCCF3C06037881018EA78DB0B49 /* Pods-Onigokko_gameTests-acknowledgements.plist */,
+				210F92E2366BE2D590933F8CA6A4C011 /* Pods-Onigokko_gameTests-dummy.m */,
+				A6A43C2498241A8255A13183B7B702CE /* Pods-Onigokko_gameTests-frameworks.sh */,
+				EDA1E30A8DE9E0E3174F9710428CAC91 /* Pods-Onigokko_gameTests-resources.sh */,
+				C6608AEF8A8E28437E4C7700538B8F08 /* Pods-Onigokko_gameTests-umbrella.h */,
+				45EAF437BEF9D59E7705E956C5FC25F9 /* Pods-Onigokko_gameTests.debug.xcconfig */,
+				9E56960647DDAFE5A2CAD4782EE38363 /* Pods-Onigokko_gameTests.release.xcconfig */,
+			);
+			name = "Pods-Onigokko_gameTests";
+			path = "Target Support Files/Pods-Onigokko_gameTests";
+			sourceTree = "<group>";
+		};
+		501562BF592517FC6A65661FF1B35C78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E004374149D836C1256FFFCB38FECB72 /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B9DDBFD34805D0CECB3FE7AA6B7B594 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				243FAC914C81DCF02EFAD12598762AD5 /* GoogleMaps */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6BC99F081C91F80679CFA5DDC6213D57 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				E10253D9A6AF596CDA1C3BBE1F2FBFD6 /* Frameworks */,
+				7679C02ACA204A8841D527A6548CA23E /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		7679C02ACA204A8841D527A6548CA23E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4A3CECE9D5FB7955B3CDC0D466370500 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6B9DDBFD34805D0CECB3FE7AA6B7B594 /* Pods */,
+				12AF12665F3D9EB456AF8E766C66B7BC /* Products */,
+				08D6CAB57C6B3429A8C7AE0FBE2974F7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E10253D9A6AF596CDA1C3BBE1F2FBFD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F95DB7ACF73CF03040C57A3D42223A51 /* GoogleMaps.framework */,
+				36DB83CB4279B90D59054691B89501D1 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F67F98A98DD3A56861DBB34D9737726A /* Pods-Onigokko_game */ = {
+			isa = PBXGroup;
+			children = (
+				482FA521D69055D5164292B7BB715808 /* Info.plist */,
+				75A04C5D920A5068273ABD558561AA64 /* Pods-Onigokko_game.modulemap */,
+				2A1E1E621C8C5B73907560991BD5F988 /* Pods-Onigokko_game-acknowledgements.markdown */,
+				1A353D41741E72B73B2C328A064E2A3C /* Pods-Onigokko_game-acknowledgements.plist */,
+				A119312D39852370944BB1994A2BA64B /* Pods-Onigokko_game-dummy.m */,
+				A9D800BE1CF7ED143E27B06F9FB4FF2D /* Pods-Onigokko_game-frameworks.sh */,
+				2ECB5B7A91A05A66EAE0B7B11910D509 /* Pods-Onigokko_game-resources.sh */,
+				132BCA64C092E806B4923C345B6CC81E /* Pods-Onigokko_game-umbrella.h */,
+				A986E34750A56C50DD52EB04A92BC672 /* Pods-Onigokko_game.debug.xcconfig */,
+				03FA1B3F626424C991F369BDD7D215C3 /* Pods-Onigokko_game.release.xcconfig */,
+			);
+			name = "Pods-Onigokko_game";
+			path = "Target Support Files/Pods-Onigokko_game";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		04F894B690A0B25BDEE846791BC722A3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39B5E04BDC0FC3E46F2698609507FA3 /* Pods-Onigokko_game-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5383FBA34CCF7AA93B5882536AAE66AF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB9F34AB7AA4CFDE6C562B42FB1D256 /* Pods-Onigokko_gameUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66087B8EB78D2E39226FCC971BD20D50 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3275065516B3F08BD07F5068941F7462 /* Pods-Onigokko_gameTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		01DA3103D1A99A0027590601B6F35B2F /* Pods-Onigokko_gameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6261885B4CBB7C00D1E7251CE6CACCF6 /* Build configuration list for PBXNativeTarget "Pods-Onigokko_gameUITests" */;
+			buildPhases = (
+				2D4632CF6341F33E3F20D4897EEA035B /* Sources */,
+				876533C46AE196512FBFF3ECF3C477F6 /* Frameworks */,
+				5383FBA34CCF7AA93B5882536AAE66AF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Onigokko_gameUITests";
+			productName = "Pods-Onigokko_gameUITests";
+			productReference = 56ABB8AE83B34C60DBD5E4EBEC2D89A1 /* Pods_Onigokko_gameUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		23E00EE1A0820A6FF93BA1CD0B4F56AC /* Pods-Onigokko_gameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68559CDB1D7000B5350E217EE22E4C23 /* Build configuration list for PBXNativeTarget "Pods-Onigokko_gameTests" */;
+			buildPhases = (
+				AF936C24F4E7884616087C37D83ED41A /* Sources */,
+				A28C2066FD38A791B1CC0218397C53B7 /* Frameworks */,
+				66087B8EB78D2E39226FCC971BD20D50 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Onigokko_gameTests";
+			productName = "Pods-Onigokko_gameTests";
+			productReference = 01D6C210F0B6ED20A678D6AA1567364A /* Pods_Onigokko_gameTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6ED0B1E4AB9A7B0D50ED73B56163B9B4 /* Pods-Onigokko_game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C701A975A420F12A6CB27595678B5290 /* Build configuration list for PBXNativeTarget "Pods-Onigokko_game" */;
+			buildPhases = (
+				2C087520D99DE04D7787DC2EA6E9FBC7 /* Sources */,
+				523D57427D0E04423E69791C6C5778C5 /* Frameworks */,
+				04F894B690A0B25BDEE846791BC722A3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Onigokko_game";
+			productName = "Pods-Onigokko_game";
+			productReference = BE37D23565A671A9665828F4447E01B2 /* Pods_Onigokko_game.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 12AF12665F3D9EB456AF8E766C66B7BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6ED0B1E4AB9A7B0D50ED73B56163B9B4 /* Pods-Onigokko_game */,
+				23E00EE1A0820A6FF93BA1CD0B4F56AC /* Pods-Onigokko_gameTests */,
+				01DA3103D1A99A0027590601B6F35B2F /* Pods-Onigokko_gameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C087520D99DE04D7787DC2EA6E9FBC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5FAC87D425FB9DA6E249FC78EC25A67 /* Pods-Onigokko_game-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4632CF6341F33E3F20D4897EEA035B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				159E44FE01CC912D9B507E8A8678472A /* Pods-Onigokko_gameUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF936C24F4E7884616087C37D83ED41A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				638934DA86BF58F11E9B9DDB7952F46D /* Pods-Onigokko_gameTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		03CC791C52F1A81919B841B276C02BB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E56960647DDAFE5A2CAD4782EE38363 /* Pods-Onigokko_gameTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Onigokko_gameTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Onigokko_gameTests/Pods-Onigokko_gameTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Onigokko_gameTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4551392ED106063EC2513F58A15BF84B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A986E34750A56C50DD52EB04A92BC672 /* Pods-Onigokko_game.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Onigokko_game/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Onigokko_game/Pods-Onigokko_game.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Onigokko_game;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78F4D363BB367FA0C1B65FD7B21D07D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45EAF437BEF9D59E7705E956C5FC25F9 /* Pods-Onigokko_gameTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Onigokko_gameTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Onigokko_gameTests/Pods-Onigokko_gameTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Onigokko_gameTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		98FBAD089E6819A21F0DD6ED3DD979E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03FA1B3F626424C991F369BDD7D215C3 /* Pods-Onigokko_game.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Onigokko_game/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Onigokko_game/Pods-Onigokko_game.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Onigokko_game;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C7C64AB2B8372B673A174595BA25641D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E2E16D20E68F646FA86257AC8FD20EF /* Pods-Onigokko_gameUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Onigokko_gameUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Onigokko_gameUITests/Pods-Onigokko_gameUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Onigokko_gameUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DA3ABC3779CC366D79F0FEAF5521ACE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E89D60B94E9582F33B016673BD1639A5 /* Pods-Onigokko_gameUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Onigokko_gameUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Onigokko_gameUITests/Pods-Onigokko_gameUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Onigokko_gameUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163D87BE96A63549B0EACF1CC31A2E90 /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6261885B4CBB7C00D1E7251CE6CACCF6 /* Build configuration list for PBXNativeTarget "Pods-Onigokko_gameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7C64AB2B8372B673A174595BA25641D /* Debug */,
+				DA3ABC3779CC366D79F0FEAF5521ACE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68559CDB1D7000B5350E217EE22E4C23 /* Build configuration list for PBXNativeTarget "Pods-Onigokko_gameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78F4D363BB367FA0C1B65FD7B21D07D2 /* Debug */,
+				03CC791C52F1A81919B841B276C02BB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C701A975A420F12A6CB27595678B5290 /* Build configuration list for PBXNativeTarget "Pods-Onigokko_game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4551392ED106063EC2513F58A15BF84B /* Debug */,
+				98FBAD089E6819A21F0DD6ED3DD979E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

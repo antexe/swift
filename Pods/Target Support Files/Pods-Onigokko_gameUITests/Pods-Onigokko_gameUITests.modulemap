@@ -1,0 +1,6 @@
+framework module Pods_Onigokko_gameUITests {
+  umbrella header "Pods-Onigokko_gameUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
