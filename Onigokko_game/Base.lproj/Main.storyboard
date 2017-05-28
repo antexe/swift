@@ -1,14 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Onigokko_game" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +20,53 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Mn-7u-6Mt" customClass="GMSMapView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="oni.png" translatesAutoresizingMaskIntoConstraints="NO" id="v4G-K3-3id">
+                                        <rect key="frame" x="167" y="309.5" width="40" height="47"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="5b1-xb-P0E"/>
+                                            <constraint firstAttribute="height" constant="47" id="C4h-aV-jg5"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user.png" translatesAutoresizingMaskIntoConstraints="NO" id="3wA-vg-1Wn">
+                                        <rect key="frame" x="175" y="321" width="24" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="24" id="SXR-dm-dVz"/>
+                                            <constraint firstAttribute="width" constant="24" id="ZAE-wo-x1z"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="3wA-vg-1Wn" firstAttribute="centerY" secondItem="4Mn-7u-6Mt" secondAttribute="centerY" id="PMW-Qr-EFH"/>
+                                    <constraint firstItem="3wA-vg-1Wn" firstAttribute="centerX" secondItem="4Mn-7u-6Mt" secondAttribute="centerX" id="Ra3-kc-f0D"/>
+                                    <constraint firstItem="v4G-K3-3id" firstAttribute="centerY" secondItem="4Mn-7u-6Mt" secondAttribute="centerY" id="dTv-v2-pbV"/>
+                                    <constraint firstItem="v4G-K3-3id" firstAttribute="centerX" secondItem="4Mn-7u-6Mt" secondAttribute="centerX" id="jF2-4O-3ZJ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="4Mn-7u-6Mt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="30C-7u-cJI"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="4Mn-7u-6Mt" secondAttribute="bottom" id="7Xh-Nr-aAF"/>
+                            <constraint firstAttribute="trailing" secondItem="4Mn-7u-6Mt" secondAttribute="trailing" id="K9F-Oa-exU"/>
+                            <constraint firstItem="4Mn-7u-6Mt" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="djZ-B5-tFf"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="googleMap" destination="4Mn-7u-6Mt" id="7VP-2S-iHR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="38.23088455772114"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="oni.png" width="80" height="95"/>
+        <image name="user.png" width="48" height="48"/>
+    </resources>
 </document>

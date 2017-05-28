@@ -14,6 +14,8 @@
 		3101EFF31EDA792E00826869 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3101EFF11EDA792E00826869 /* LaunchScreen.storyboard */; };
 		3101EFFE1EDA792E00826869 /* Onigokko_gameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3101EFFD1EDA792E00826869 /* Onigokko_gameTests.swift */; };
 		3101F0091EDA792E00826869 /* Onigokko_gameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3101F0081EDA792E00826869 /* Onigokko_gameUITests.swift */; };
+		310CF71E1EDA87D50015F84D /* oni.png in Resources */ = {isa = PBXBuildFile; fileRef = 310CF71D1EDA87D50015F84D /* oni.png */; };
+		310CF7201EDA886C0015F84D /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 310CF71F1EDA886C0015F84D /* user.png */; };
 		63A7A090B87C4497DF11F146 /* Pods_Onigokko_game.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E587DDF48C1CAE36C4FB2E /* Pods_Onigokko_game.framework */; };
 		B3DFDC802DEDF02CC6011A60 /* Pods_Onigokko_gameUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0B0C8C633A106DBBAC159DF /* Pods_Onigokko_gameUITests.framework */; };
 		E6E4D09726DEA75CFA66437E /* Pods_Onigokko_gameTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C4C026470C48A49EE81C7C7 /* Pods_Onigokko_gameTests.framework */; };
@@ -52,6 +54,8 @@
 		3101F0041EDA792E00826869 /* Onigokko_gameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Onigokko_gameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3101F0081EDA792E00826869 /* Onigokko_gameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onigokko_gameUITests.swift; sourceTree = "<group>"; };
 		3101F00A1EDA792E00826869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		310CF71D1EDA87D50015F84D /* oni.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = oni.png; path = "../../../../Downloads/onigokko-assets/oni.png"; sourceTree = "<group>"; };
+		310CF71F1EDA886C0015F84D /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
 		5C4C026470C48A49EE81C7C7 /* Pods_Onigokko_gameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Onigokko_gameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		729E9826BB39259F56657429 /* Pods-Onigokko_game.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Onigokko_game.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Onigokko_game/Pods-Onigokko_game.debug.xcconfig"; sourceTree = "<group>"; };
 		8FEF582A8ED0B477BE2CE3E2 /* Pods-Onigokko_gameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Onigokko_gameUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Onigokko_gameUITests/Pods-Onigokko_gameUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -114,6 +118,8 @@
 		3101EFE71EDA792E00826869 /* Onigokko_game */ = {
 			isa = PBXGroup;
 			children = (
+				310CF71F1EDA886C0015F84D /* user.png */,
+				310CF71D1EDA87D50015F84D /* oni.png */,
 				3101EFE81EDA792E00826869 /* AppDelegate.swift */,
 				3101EFEA1EDA792E00826869 /* ViewController.swift */,
 				3101EFEC1EDA792E00826869 /* Main.storyboard */,
@@ -284,6 +290,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				310CF71E1EDA87D50015F84D /* oni.png in Resources */,
+				310CF7201EDA886C0015F84D /* user.png in Resources */,
 				3101EFF31EDA792E00826869 /* LaunchScreen.storyboard in Resources */,
 				3101EFF01EDA792E00826869 /* Assets.xcassets in Resources */,
 				3101EFEE1EDA792E00826869 /* Main.storyboard in Resources */,
@@ -319,7 +327,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		583854F0B85BF7196A853EEF /* [CP] Copy Pods Resources */ = {
@@ -394,7 +402,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		CB07C77A95769C20B4B05BE4 /* [CP] Embed Pods Frameworks */ = {
@@ -439,7 +447,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -707,6 +715,7 @@
 				3101F00F1EDA792E00826869 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3101F0101EDA792E00826869 /* Build configuration list for PBXNativeTarget "Onigokko_gameTests" */ = {
 			isa = XCConfigurationList;
@@ -715,6 +724,7 @@
 				3101F0121EDA792E00826869 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3101F0131EDA792E00826869 /* Build configuration list for PBXNativeTarget "Onigokko_gameUITests" */ = {
 			isa = XCConfigurationList;
@@ -723,6 +733,7 @@
 				3101F0151EDA792E00826869 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

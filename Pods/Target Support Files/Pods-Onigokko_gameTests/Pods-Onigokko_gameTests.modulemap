@@ -1,0 +1,6 @@
+framework module Pods_Onigokko_gameTests {
+  umbrella header "Pods-Onigokko_gameTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
